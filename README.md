@@ -1,6 +1,8 @@
-# Threshold Rectified Attention
+# Threshold Differential Attention (TDA)
 
 Triton implementation of Threshold Rectified Attention and Threshold Differential Attention with fused kernels for efficient computation.
+
+This repository accompanies the paper **[Threshold Differential Attention for Sink-Free, Ultra-Sparse, and Non-Dispersive Language Modeling](https://arxiv.org/abs/2601.12145)**, accepted to **ACL 2026**.
 
 **Formula:** `out = (ReLU(Q@K^T - tau))^p @ V`
 
@@ -56,3 +58,17 @@ output = differential_threshold_rela_triton(
 
 - PyTorch
 - Triton
+
+## Citation
+
+If you use this implementation, please cite:
+
+```bibtex
+@inproceedings{huang2026threshold,
+  title={Threshold Differential Attention for Sink-Free, Ultra-Sparse, and Non-Dispersive Language Modeling},
+  author={Huang, Xingyue and Ding, Xueying and Ju, Mingxuan and Liu, Yozen and Shah, Neil and Zhao, Tong},
+  booktitle={Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics},
+  year={2026},
+  url={https://arxiv.org/abs/2601.12145}
+}
+```
