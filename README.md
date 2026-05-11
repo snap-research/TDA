@@ -1,5 +1,10 @@
 # Threshold Differential Attention (TDA)
 
+[![ACL 2026](https://img.shields.io/badge/ACL-2026-4b7bec.svg)](https://2026.aclweb.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2601.12145-b31b1b.svg)](https://arxiv.org/abs/2601.12145)
+[![PyTorch](https://img.shields.io/badge/PyTorch-required-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![Triton](https://img.shields.io/badge/Triton-required-1a237e?logo=nvidia&logoColor=white)](https://triton-lang.org/)
+
 Triton implementation of Threshold Rectified Attention and Threshold Differential Attention with fused kernels for efficient computation.
 
 This repository accompanies the paper **[Threshold Differential Attention for Sink-Free, Ultra-Sparse, and Non-Dispersive Language Modeling](https://arxiv.org/abs/2601.12145)**, accepted to **ACL 2026**.
