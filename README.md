@@ -7,7 +7,7 @@
 
 Triton implementation of Threshold Rectified Attention and Threshold Differential Attention with fused kernels for efficient computation.
 
-This repository accompanies the paper **[Threshold Differential Attention for Sink-Free, Ultra-Sparse, and Non-Dispersive Language Modeling](https://arxiv.org/abs/2601.12145)**, accepted to **ACL 2026**.
+This repository accompanies the paper **[Threshold Differential Attention for Sink-Free, Ultra-Sparse, and Non-Dispersive Language Modeling](https://arxiv.org/abs/2601.12145)**, accepted to **ACL 2026 (Oral)**.
 
 **Formula:** `out = (ReLU(Q@K^T - tau))^p @ V`
 
